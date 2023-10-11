@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background-color: #f1f1f1;
+
+}
+div#post {
+    position: fixed;
+    background-color: white;
+    margin: 0 5%;
+    padding: 20px;
+    top: 0;
+}
+div#post h1 {
+    font-size: 3em;
+}
+div#post p {
+    font-size: 1.6em;
+}
+div#addComment {
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+input#displayName {
+    padding: 10px;
+}
+input#commentInput {
+    margin: 0 10px;
+    padding: 10px;
+    flex-grow: 3;
+}
+div#submitButton {
+    color: #41bfe6;
+    padding: 10px;
+}
+div#submitButton:hover {
+    cursor: pointer;
+}
+input.highlight {
+    background-color: rgb(253, 253, 193);
+}
+div#commentsContainer {
+    background-color: #eaeaea;
+    margin: 250px 5% 80px;
+    padding: 1px 0;
+}
+div#comment {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+div#bar {
+    display: flex;
+    flex-flow: row wrap;
+}
+div#space {
+    flex-grow: 3;
+}
+div#bar button {
+    color: #41bfe6;
+    padding-right: 10px;
+    border: 0;
+    background-color: white;
+    font-size: 1em;
+}
+button:hover {
+    cursor: pointer;
+}
+div#editComment {
+    border-color: #aaa;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+div#submitEdit {
+    color: #41bfe6;
+    padding: 10px;
+}
+div#submitEdit:hover {
+    cursor: pointer;
+}
+img#userIcon {
+    float: left;
+    max-width: 60px;
+    padding-right: 15px;
+}
